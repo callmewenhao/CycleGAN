@@ -1,0 +1,9 @@
+.idea/
+__pycache__/
+model/.__pycache__/
+genA.pth.tar
+genB.pth.tar
+
+
+
+
