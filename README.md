@@ -4,9 +4,10 @@
 
 **From apples to oranges!** 🤔
 
-<img src="images\pred_A_B_A2.png" style="zoom:30%;" />
-
-<img src="images\pred_B_A_B2.png" style="zoom:30%;" />
+<div align="center">
+    <img src="images\pred_A_B_A2.png" height="120" width="360"/><br>
+	<img src="images\pred_B_A_B2.png" height="120" width="360"/><br>
+</div>
 
 ### Details
 
@@ -25,7 +26,10 @@
 
 ### More Result Pictures
 
-<img src="images\pred_A_B_A1.png" style="zoom:30%;" />
-
-<img src="images\pred_B_A_B1.png" style="zoom:30%;" />
+<div align="center">
+    <img src="images\pred_A_B_A1.png" height="120" width="360"/><br>
+    <img src="images\pred_B_A_B1.png" height="120" width="360"/><br>
+    <img src="images\pred_H_Z_H1.png" height="120" width="360"/><br>
+    <img src="images\pred_Z_H_Z1.png" height="120" width="360"/><br>
+</div>
 

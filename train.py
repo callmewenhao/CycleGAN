@@ -13,17 +13,17 @@ from dataset import A2BDataset
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 batch_size = 1
 learning_rate = 1e-5
-lambda_identity = 0.0
+lambda_identity = 0.1
 lambda_cycle = 10
 num_epochs = 10
 
 # paths
-A_dir = "G:\CycleGAN_DATA\\apple2orange\\trainA"  # 995 apples
-B_dir = "G:\CycleGAN_DATA\\apple2orange\\trainB"  # 1019 oranges
+A_dir = "G:\CycleGAN_DATA\horse2zebra\\trainA"  # horse
+B_dir = "G:\CycleGAN_DATA\horse2zebra\\trainB"  # zebra
 LOAD_MODEL = False
 SAVE_MODEL = True
-CHECKPOINT_GEN_A = "genA.pth.tar"  # A:apple
-CHECKPOINT_GEN_B = "genB.pth.tar"  # B:orange
+CHECKPOINT_GEN_A = "genHorse.pth.tar"  # A 马
+CHECKPOINT_GEN_B = "genZebra.pth.tar"  # B 斑马
 CHECKPOINT_CRITIC_A = "criticA.pth.tar"
 CHECKPOINT_CRITIC_B = "criticB.pth.tar"
 

@@ -1,9 +1,11 @@
 .idea/
 __pycache__/
 model/.__pycache__/
-genA.pth.tar
-genB.pth.tar
-
+# 忽略参数
+genApple.pth.tar
+genOrange.pth.tar
+genHorse.pth.tar
+genZebra.pth.tar
 
 
 
